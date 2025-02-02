@@ -41,8 +41,8 @@ def parse_configs():
                         help='setup baseline results for testing comparison')
     parser.add_argument('--seed', type=int, default=123, metavar='N',
                         help='random seed (default: 123)')
-    parser.add_argument('--num_epoch', type=int, default=5, metavar='N',
-                        help='number of epoches (default: 5)')
+    parser.add_argument('--num_epoch', type=int, default=4, metavar='N',
+                        help='number of epoches (default: 4)')
     parser.add_argument('--snapshot_interval', type=int, default=1, metavar='N',
                         help='The epoch interval of model snapshot (default: 1)')
     parser.add_argument('--test_epoch', type=int, default=-1, 
